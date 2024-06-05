@@ -1,0 +1,50 @@
+.ventanas{
+    text-decoration: none;
+    list-style: none;
+    margin    :  4px;
+    position: relative;
+    bottom: 140px;
+    font-size: 30px;
+    height: 66px;
+    display: flex;
+   justify-content:space-around;
+}
+header nav ul  {
+    
+    flex-direction  : row-reverse;
+    align-items     : center;
+
+}
+/* header nav div img {
+    position: relative;
+    top     : 1px;
+    font-size: 45px;
+    display  : flex; 
+    left: 1369px;  
+} */
+.subtitulo{
+    position: relative;
+    left: 10px;
+    bottom: 170px;
+    font-size: 45px;
+}
+header{
+    background-color: rgb(238, 213, 228);
+    /* width: 1500px; */
+    max-width: 80%;
+    height: 190px;
+    margin:0 auto;
+    display: fle;
+}
+nav{
+    max-width: 80%;
+    
+}
+nav ul{
+    display: flex;
+}
+nav div{
+    display: flex;
+    flex-direction: row-reverse;
+}
+ 
